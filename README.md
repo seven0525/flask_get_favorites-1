@@ -1,5 +1,8 @@
 # flask_get_favorites
 
+## アプリ画面
+<img src="images/result1.png" width=50%>
+
 ## 実行方法
 ```
 python get_favorites.py
