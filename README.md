@@ -1,6 +1,6 @@
 # flask_get_favorites
 FirebaseでTwitterアカウント認証したユーザーの「いいね」ツイートを100件取得するためのAPI  
-結果を[Vue.js](https://github.com/yookm19/flask_get_favorites)に渡しています。
+結果を[Vue.js by yookm19](https://github.com/yookm19/flask_get_favorites)に渡しています。
 
 ## アプリ画面
 <img src="images/result1.png" width=50%>
