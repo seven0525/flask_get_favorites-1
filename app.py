@@ -5,6 +5,7 @@ import requests
 from base64 import b64decode, b64encode
 from flask_cors import CORS
 import json
+import os
 
 
 #データベースの設定
@@ -14,6 +15,10 @@ app = Flask(__name__)
 CORS(app)
 
 #関数の設定
+
+@app.route('/test')
+def index():
+    return 'Hello World!'
 
 @app.route("/")
 def top():
@@ -53,4 +58,4 @@ def top():
 #実行
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
